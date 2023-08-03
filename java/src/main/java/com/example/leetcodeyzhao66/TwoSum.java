@@ -14,9 +14,10 @@ public class TwoSum {
         Scanner scanner = new Scanner(System.in);
         int[] nums = {3,2,4};
         int target = 6;
+        System.out.println(target);
         int[] result = twoSum(nums, target);
         int[] result2 = twoSum2(nums, target);
-        System.out.println();
+        System.out.println(result2.toString());
 
 
     }
@@ -43,4 +44,6 @@ public class TwoSum {
         }
         return new int[0];
     }
+
+
 }
